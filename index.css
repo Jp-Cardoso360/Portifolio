@@ -115,6 +115,7 @@ body {
 }
 
 .sobre {
+  text-align: center;
   margin: 10px;
   width: 100%;
 }
@@ -136,7 +137,6 @@ body {
 
 .conteudo1 {
   padding: 20px;
-  text-align: center;
 }
 
 .conteudo1 p {
