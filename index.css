@@ -449,7 +449,7 @@ animation: animar 1s;
   justify-content: center;
   flex-wrap: wrap;
   transition: 1s;
-  animation: aparecer 0.2s;
+  animation: aparecer 0.2s linear;
 }
 
 .icon {
