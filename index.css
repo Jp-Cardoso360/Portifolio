@@ -29,7 +29,7 @@ body {
 }
 
 .conteinerProfile {
-  background-color: rgb(2, 2, 87);
+  background-color: rgb(1, 1, 10);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,7 +125,7 @@ body {
 }
 
 .sobreMin {
-  background-color: rgb(2, 2, 87);
+  background-color: rgb(1, 1, 10);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -228,7 +228,7 @@ main {
 }
 
 .conhecimentos {
-  background-color: rgb(2, 2, 87);
+  background-color: rgb(1, 1, 10);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -329,7 +329,7 @@ main {
   width: 95%;
   min-height: 200px;
   max-width: 1200px;
-  background-color: rgb(2, 2, 87);
+  background-color: rgb(1, 1, 10);
   border: 1px solid rgb(4, 4, 148);
   margin: 10px;
   border-radius: 15px;
@@ -421,7 +421,7 @@ animation: animar 1s;
   width: 95%;
   min-height: 200px;
   max-width: 1200px;
-  background-color: rgb(2, 2, 87);
+  background-color: rgb(1, 1, 10);
   border: 1px solid rgb(4, 4, 148);
   margin: 10px;
   border-radius: 15px;
@@ -456,7 +456,7 @@ animation: animar 1s;
   width: 100px;
   height: 150px;
   border-radius: 10px;
-  background-color: rgb(2, 2, 87);
+  background-color: rgb(1, 1, 10);
   margin: 15px;
   display: flex;
   flex-direction: column;
