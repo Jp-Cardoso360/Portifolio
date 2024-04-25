@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .Header {
@@ -169,7 +169,7 @@ main {
 }
 
 .card {
-  width: 95%;
+  width: 85%;
   min-height: 200px;
   max-width: 400px;
   background-color: rgb(8, 8, 37);
@@ -259,7 +259,7 @@ main {
 }
 
 .skills {
-  width: 95%;
+  width: 85%;
   height: 370px;
   min-height: 200px;
   max-width: 500px;
@@ -351,8 +351,8 @@ main {
 }
 
 .portifolios {
-  width: 90%;
-  max-width: 800px;
+  width: 85%;
+  max-width: 1000px;
   padding: 10px;
   background-color: rgb(8, 8, 37);
   border: 1px solid rgb(4, 4, 148);
@@ -421,6 +421,7 @@ animation: animar 1s;
   width: 95%;
   min-height: 200px;
   max-width: 1200px;
+  padding-bottom: 30px;
   background-color: rgb(1, 1, 10);
   border: 1px solid rgb(4, 4, 148);
   margin: 10px;
@@ -438,7 +439,7 @@ animation: animar 1s;
 }
 
 .info {
-  width: 90%;
+  width: 85%;
   max-width: 800px;
   padding: 10px;
   background-color: rgb(8, 8, 37);
@@ -466,7 +467,11 @@ animation: animar 1s;
   transition: 1.2s;
 animation: animar 0.7s;
 }
-
+.agradecimento{
+  padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gainsboro;
+}
 .icon:hover {
   transform: scale(110%);
   box-shadow: 2px 5px 2px 0px rgb(221, 221, 24);
