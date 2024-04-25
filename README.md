@@ -1,4 +1,4 @@
-![Imagem do WhatsApp de 2024-04-19 à(s) 01 55 53_3eccdf61](https://github.com/Jp-Cardoso360/Portifolio/assets/141683330/ca6e465a-1486-4668-8d8d-0c03af6331fd)
 
+![b4585ada-7a01-45e4-ba03-a08ef1ccbf4d](https://github.com/Jp-Cardoso360/Portifolio/assets/141683330/4bea7bbc-48c0-42fb-b654-8aa33f22106b)
 
 Link do meu portifolio:  https://joao-cardoso-dev.netlify.app/
