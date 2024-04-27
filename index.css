@@ -58,28 +58,30 @@ body {
 .conteinerProfile #logo {
   width: 40%;
   max-width: 200px;
-  margin: 15px;
-  border-radius: 10%;
+  margin: 20px;
+  border-radius: 20px;
   box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.808);
   animation: animar 1s;
 }
 
 #devIcon1 {
   width: 100%;
-  max-width: 200px;
+  max-width: 150px;
   position: absolute;
-  right: 20px;
+  right: 50px;
   top: 30%;
   display: none;
+  border-radius: 30px;
 }
 
 #devIcon2 {
   width: 100%;
-  max-width: 200px;
+  max-width: 150px;
   position: absolute;
-  left: 20px;
+  left: 50px;
   top: 30%;
   display: none;
+  border-radius: 30px;
 }
 
 .contatos {
