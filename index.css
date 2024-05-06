@@ -42,15 +42,16 @@ body {
 
 .conteinerProfile h2 {
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 1px 2px 3px rgb(221, 221, 24);
+  font-size: 2.3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 3px rgb(5, 30, 248);
 }
 
 .conteinerProfile h3 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: rgb(8, 8, 37);
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(9, 9, 129);
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
   border-radius: 10px;
   text-align: center;
 }
@@ -60,8 +61,9 @@ body {
   max-width: 200px;
   margin: 20px;
   border-radius: 20px;
-  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.808);
-  animation: animar 1s;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.808);
+  animation: animar 1.5s;
+  
 }
 
 #devIcon1 {
@@ -100,20 +102,19 @@ body {
   width: 80%;
   max-width: 220px;
   margin: 10px;
-  background-color: rgb(8, 8, 37);
   display: flex;
   justify-content: center;
   border-radius: 10px;
 }
 
 .navegar i {
-  font-size: 1.8rem;
+  font-size: 2.3rem;
   margin: 10px;
-  text-shadow: 2px 3px 2px rgba(7, 21, 206, 0.664);
+  text-shadow: 2px 3px 2px rgba(6, 37, 209, 0.87);
 }
 
 .navegar i:hover {
-  transform: scale(150%);
+  transform: scale(110%);
 }
 
 .sobre {
@@ -320,7 +321,21 @@ main {
 .r {
   width: 20%;
 }
-
+.iconesHabilidades{
+  width: 90%;
+  max-width: 450px;
+  padding: 10px;
+  text-align: center;
+}
+.iconesHabilidades img{
+  width: 80%;
+  max-width: 40px;
+  margin: 3px;
+  transition: 1.5s;
+}
+.iconesHabilidades img:hover{
+  transform: scale(140%);
+}
 @keyframes crescer {
   0% {
     width: 0;
