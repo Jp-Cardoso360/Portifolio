@@ -463,11 +463,9 @@ animation: animar 1s;
 }
 
 .info {
-  width: 85%;
-  max-width: 800px;
+  width: 90%;
+  max-width: 1000px;
   padding: 10px;
-  background-color: rgb(8, 8, 37);
-  border: 1px solid rgb(4, 4, 148);
   margin: 10px;
   border-radius: 15px;
   display: flex;
@@ -477,19 +475,22 @@ animation: animar 1s;
 
 }
 
-.icon {
-  width: 100px;
-  height: 150px;
+.info img {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
   border-radius: 10px;
   background-color: rgb(1, 1, 10);
-  margin: 15px;
+  border: 1px solid white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 2px 3px 2px 0px rgb(221, 221, 24);
-  transition: 1.2s;
+  transition: 2s;
 animation: animar 0.7s;
+}
+.icon{
+  margin: 20px;
 }
 .agradecimento{
   padding: 15px;
@@ -498,7 +499,7 @@ animation: animar 0.7s;
 }
 .icon:hover {
   transform: scale(110%);
-  box-shadow: 2px 5px 2px 0px rgb(221, 221, 24);
+  transform: rotate(10deg);
 }
 
 .info a {
