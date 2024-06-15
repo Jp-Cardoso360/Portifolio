@@ -614,14 +614,4 @@ main{
   .info {
     width: 80%;
   }
-
-  .icon {
-    width: 50px;
-    height: 100px;
-    padding: 12px;
-  }
-
-  .icon p {
-    font-size: 0.7rem;
-  }
 }
