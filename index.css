@@ -144,6 +144,8 @@ opacity: 90%;
 .conteudo1 {
   text-align: center;
   padding: 20px;
+  width: 80%;
+  max-width: 1000px;
 }
 
 .conteudo1 p {
@@ -252,6 +254,8 @@ main {
 .conteudo3 {
   padding: 15px;
   text-align: center;
+  width: 80%;
+  max-width: 1000px;
 }
 
 .conteudo3 p {
