@@ -41,4 +41,23 @@ Btnmais.addEventListener('click', function(){
   sobreMin.style.display = ativo_Off.desativado;
   conhecimentos.style.display = ativo_Off.desativado;
   projetos.style.display = ativo_Off.desativado;
+});
+
+const myObserve = new IntersectionObserver((observ) =>{
+observ.forEach((entry) =>{
+    if(entry.isIntersecting){
+        entry.target.classList.add("show");
+        console.log(entry.isIntersecting,"funcionou");
+          entry.target.classList.remove("hidden");
+
+    }else{
+          entry.target.classList.remove("show");
+        console.log(entry.isIntersecting,"erro");
+
+    }
 })
+});
+
+const elements = document.querySelectorAll(".hidden");
+
+elements.forEach((element) => myObserve.observe(element));  
