@@ -29,11 +29,11 @@ body {
 }
 
 .conteinerProfile {
-background-image: url(https://t4.ftcdn.net/jpg/02/32/92/55/360_F_232925587_st4gM8b3TJHtjjddCIUNyVyFJmZqMmn4.jpg);
- background-repeat: no-repeat;
- background-size: cover;
-opacity: 90%;
- display: flex;
+  background-image: url(https://t4.ftcdn.net/jpg/02/32/92/55/360_F_232925587_st4gM8b3TJHtjjddCIUNyVyFJmZqMmn4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+  display: flex;
   flex-direction: column;
   align-items: center;
   width: 95%;
@@ -51,7 +51,7 @@ opacity: 90%;
 }
 
 .conteinerProfile h3 {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(9, 9, 129);
   padding: 5px;
   margin: 10px;
@@ -66,7 +66,7 @@ opacity: 90%;
   border-radius: 20px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.808);
   animation: animar 1.5s;
-  
+
 }
 
 #devIcon1 {
@@ -128,6 +128,7 @@ opacity: 90%;
 
 .sobre h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
 }
 
 .sobreMin {
@@ -136,7 +137,7 @@ opacity: 90%;
   flex-direction: column;
   align-items: center;
   width: 95%;
-  max-width: 1200px;
+  max-width: 1300px;
   border: 1px solid rgb(4, 4, 148);
   border-radius: 20px;
 }
@@ -241,13 +242,13 @@ main {
   flex-direction: column;
   align-items: center;
   width: 95%;
-  max-width: 1200px;
+  max-width: 1300px;
   border: 1px solid rgb(4, 4, 148);
   border-radius: 20px;
 }
 
 .conhecimentos h2 {
-  margin: 10px;
+  margin: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -328,21 +329,25 @@ main {
 .r {
   width: 20%;
 }
-.iconesHabilidades{
+
+.iconesHabilidades {
   width: 100%;
   max-width: 450px;
   padding: 10px;
   text-align: center;
 }
-.iconesHabilidades img{
+
+.iconesHabilidades img {
   width: 80%;
   max-width: 40px;
   margin: 3px;
   transition: 1.5s;
 }
-.iconesHabilidades img:hover{
+
+.iconesHabilidades img:hover {
   transform: scale(140%);
 }
+
 @keyframes crescer {
   0% {
     width: 0;
@@ -352,11 +357,11 @@ main {
 .projetos {
   width: 95%;
   min-height: 200px;
-  max-width: 1200px;
+  max-width: 1300px;
   background-image: url(https://t4.ftcdn.net/jpg/02/32/92/55/360_F_232925587_st4gM8b3TJHtjjddCIUNyVyFJmZqMmn4.jpg);
   background-repeat: no-repeat;
-background-size: cover;
- opacity: 90%;
+  background-size: cover;
+  opacity: 90%;
   border: 1px solid rgb(4, 4, 148);
   margin: 10px;
   border-radius: 15px;
@@ -367,7 +372,7 @@ background-size: cover;
 }
 
 .projetos h2 {
-  margin: 10px;
+  margin: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -378,8 +383,8 @@ background-size: cover;
 }
 
 .portifolios {
-  width: 85%;
-  max-width: 1000px;
+  width: 90%;
+  max-width: 1200px;
   padding: 10px;
   background-color: rgb(8, 8, 37);
   border: 1px solid rgb(4, 4, 148);
@@ -408,7 +413,7 @@ background-size: cover;
   transition: 1s;
   border: 2px solid rgb(2, 2, 87);
   border-radius: 10px;
-animation: animar 1s;
+  animation: animar 1s;
 }
 
 .portifolios i {
@@ -447,7 +452,7 @@ animation: animar 1s;
 .mais {
   width: 95%;
   min-height: 200px;
-  max-width: 1200px;
+  max-width: 1300px;
   padding-bottom: 30px;
   background-color: rgb(1, 1, 10);
   border: 1px solid rgb(4, 4, 148);
@@ -462,7 +467,7 @@ animation: animar 1s;
 
 .mais h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
 }
 
@@ -491,18 +496,20 @@ animation: animar 1s;
   justify-content: center;
   align-items: center;
   transition: 2s;
-animation: animar 0.7s;
+  animation: animar 0.7s;
 }
-.icon{
+
+.icon {
   margin: 20px;
 }
-.agradecimento{
+
+.agradecimento {
   padding: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: gainsboro;
 }
+
 .icon:hover {
-  transform: scale(110%);
   transform: rotate(10deg);
 }
 
@@ -519,14 +526,17 @@ animation: animar 0.7s;
   padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-main{
+
+main {
   animation: aparecer 0.2s linear;
 }
-@keyframes aparecer{
-  0%{
+
+@keyframes aparecer {
+  0% {
     margin-left: -550px;
   }
 }
+
 @keyframes up-Dow {
   0% {
     transform: translateY(0);
@@ -546,14 +556,15 @@ main{
     width: 90%;
     max-width: 500px;
   }
+
   .conhecimentos {
     display: none;
   }
-  
+
   .projetos {
     display: none;
   }
-  
+
   .mais {
     display: none;
   }
@@ -586,7 +597,7 @@ main{
 
   .conteinerProfile h2 {
     margin-top: 30px;
-    font-size:2.3rem;
+    font-size: 2.3rem;
   }
 
   .conteinerProfile h3 {
@@ -601,29 +612,37 @@ main{
   .navegadores {
     display: none;
   }
+
   .conhecimentos {
-  display: flex;
+    display: flex;
+  }
+
+  .projetos {
+    display: flex;
+  }
+
+  .mais {
+    display: flex;
+  }
 }
 
-.projetos {
+.hidden {
+  opacity: 0;
+  filter: blur(25px);
+  transition: all 2s;
+  margin-left: -200px;
+  transform: scale(20%);
+  color: gainsboro;
+}
+ 
+.show { 
+  opacity: 1;
+  transition: all 2s;
   display: flex;
 }
+ 
 
-.mais {
-  display: flex;
-} 
-}
-.hidden{
-    opacity: 0;
-    filter: blur(15px);
-    transition: all 2s;
-}
-.show{
-        opacity: 1;
-    transition: all 2s;
-}
-
-@media (max-width:400px) {
+@media (max-width:400px) { 
   .info {
     width: 80%;
   }
