@@ -625,8 +625,11 @@ main {
     display: flex;
   }
 }
-
-.hidden {
+.hidden{
+  display: flex;
+}
+@media(min-width:550px){
+  .hidden {
   opacity: 0;
   filter: blur(25px);
   transition: all 2s;
@@ -634,16 +637,16 @@ main {
   transform: scale(20%);
   color: gainsboro;
 }
- 
+  
 .show { 
   opacity: 1;
-  transition: all 2s;
-  display: flex;
+  transition: all 2s;  
+  display: flex;  
 }
- 
-
+}
 @media (max-width:400px) { 
   .info {
     width: 80%;
   }
+
 }
