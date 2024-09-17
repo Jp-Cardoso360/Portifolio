@@ -639,6 +639,7 @@ main {
 }
   .hidden img{
   margin-left: -200px;
+  transition: 3s;
 }
 .show { 
   opacity: 1;
