@@ -3,7 +3,7 @@ const sobreMin = document.querySelector('.sobreMin');
 const conhecimentos = document.querySelector('.conhecimentos');
 const projetos = document.querySelector('.projetos');
 const footer = document.querySelector('.mais');
-// butões 
+// botões 
 const btnSobre = document.querySelector('#btnSobre');
 const btnConhecimentos = document.querySelector('#btnConhecimentos');
 const btnProjetos = document.querySelector('#btnProjetos');
@@ -20,6 +20,7 @@ btnSobre.addEventListener('click', function(){
   conhecimentos.style.display = ativo_Off.desativado;
   projetos.style.display = ativo_Off.desativado;
   footer.style.display = ativo_Off.desativado;
+  window.scrollTo(0, 0);
 });
 btnConhecimentos.addEventListener('click', function(){
   conhecimentos.style.display = ativo_Off.ativo;
@@ -27,6 +28,7 @@ btnConhecimentos.addEventListener('click', function(){
   sobreMin.style.display = ativo_Off.desativado;
   projetos.style.display = ativo_Off.desativado;
   footer.style.display = ativo_Off.desativado;
+  window.scrollTo(0, 0); 
 });
 btnProjetos.addEventListener('click', function(){
   projetos.style.display = ativo_Off.ativo;
@@ -34,6 +36,7 @@ btnProjetos.addEventListener('click', function(){
   sobreMin.style.display = ativo_Off.desativado;
   conhecimentos.style.display = ativo_Off.desativado;
   footer.style.display = ativo_Off.desativado;
+  window.scrollTo(0, 0); 
 });
 Btnmais.addEventListener('click', function(){
   footer.style.display = ativo_Off.ativo;
@@ -41,23 +44,22 @@ Btnmais.addEventListener('click', function(){
   sobreMin.style.display = ativo_Off.desativado;
   conhecimentos.style.display = ativo_Off.desativado;
   projetos.style.display = ativo_Off.desativado;
+  window.scrollTo(0, 0);
 });
 
 const myObserve = new IntersectionObserver((observ) =>{
-observ.forEach((entry) =>{
+  observ.forEach((entry) =>{
     if(entry.isIntersecting){
-        entry.target.classList.add("show");
-        console.log(entry.isIntersecting,"funcionou");
-          entry.target.classList.remove("hidden");
-
+      entry.target.classList.add("show");
+      entry.target.classList.remove("hidden");
     }else{
-          entry.target.classList.remove("show");
-        console.log(entry.isIntersecting,"erro");
-
+      entry.target.classList.remove("show");
+      console.log(entry.isIntersecting,"erro");
     }
-})
+  })
 });
 
 const elements = document.querySelectorAll(".hidden");
 
-elements.forEach((element) => myObserve.observe(element));  
+elements.forEach((element) => myObserve.observe(element));
+   
