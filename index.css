@@ -637,7 +637,9 @@ main {
   transform: scale(40%);
   color: gainsboro;
 }
-  
+  .hidden img{
+  margin-left: -200px;
+}
 .show { 
   opacity: 1;
   transition: all 2s;  
