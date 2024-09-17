@@ -611,7 +611,16 @@ main{
 
 .mais {
   display: flex;
+} 
 }
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 2s;
+}
+.show{
+        opacity: 1;
+    transition: all 2s;
 }
 
 @media (max-width:400px) {
