@@ -271,9 +271,8 @@ main {
 
 .skills {
   width: 95%;
-  height: 370px;
   min-height: 200px;
-  max-width: 500px;
+  max-width: 700px;
   background-color: rgb(8, 8, 37);
   border: 1px solid rgb(4, 4, 148);
   margin: 25px;
@@ -319,15 +318,24 @@ main {
 }
 
 .c {
-  width: 80%;
+  width: 85%;
 }
 
 .j {
-  width: 70%;
+  width: 80%;
 }
 
 .r {
   width: 20%;
+}
+.n{
+  width: 50%;
+}
+.m{
+  width: 90%;
+}
+.g{
+  width: 90%;
 }
 
 .iconesHabilidades {
